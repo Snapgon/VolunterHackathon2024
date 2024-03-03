@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2gd1oxkaotnd"]
+
+[ext_resource type="Script" path="res://Scripts/brain.gd" id="1_6ees2"]
+
+[node name="Brain" type="Node2D"]
+script = ExtResource("1_6ees2")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1280.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
